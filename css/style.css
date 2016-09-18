@@ -1,0 +1,45 @@
+
+.image {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+h2 { 
+   position: absolute; 
+   top: 500px; 
+   left: 0px; 
+   width: 100%; 
+}
+h2 span {
+   color: white;
+   font: bold 40px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.5);
+   /*padding: 10px;*/
+   margin-left: 0px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 8px;
+}
+
+.split-para{ 
+    /*display:block;*/
+    margin-right:0px;
+    padding-right: 8px;
+}
+#cloud-container{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1; /* Remove this line if it's not going to be a background! */
+}
